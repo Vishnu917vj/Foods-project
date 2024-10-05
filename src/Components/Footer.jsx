@@ -8,7 +8,7 @@ function Footer() {
       <li className="nav-item"><Link to="/" className="nav-link px-2 text-white">Home</Link></li>
       <li className="nav-item"><Link to="/login" className="nav-link px-2 text-white">Login</Link></li>
     </ul>
-    <p className="text-center text-white">© 2022 GoFood Inc</p>
+    <p className="text-center text-white">© 2022 VjFood Inc</p>
   </footer></div>
   )
 }
