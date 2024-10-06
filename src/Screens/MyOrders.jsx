@@ -10,7 +10,7 @@ function MyOrders() {
         const fetchOrders = async () => {
             try {
                 const email = localStorage.getItem("email");
-                const res = await fetch("https://foodsprojectbyvishnu-1.onrender.com/api/myorders", {
+                const res = await fetch("https://foods-project-3.onrender.comm/api/myorders", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
