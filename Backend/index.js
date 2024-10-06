@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const port=process.env.PORT|| 5000;
 var app=express();
 app.use(cors({
-    origin: '*', // Your frontend URL
+    origin: 'https://foods-project-5.onrender.com', // Your frontend URL
     credentials: true // Allow credentials (cookies) to be sent
 }));
 app.use(cookieParser());  
