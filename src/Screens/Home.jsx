@@ -14,7 +14,7 @@ function Home() {
   const [cat, setCat] = useState([]);
 
   const data = async () => {
-    const jdata = await fetch('https://foodsprojectbyvishnu-1.onrender.com/api/fetchData', {
+    const jdata = await fetch('https://foods-project-3.onrender.com/api/fetchData', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
