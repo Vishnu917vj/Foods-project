@@ -8,7 +8,7 @@ function Login() {
   }
   async function handleSubmit(e) {
     e.preventDefault();
-    const response = await fetch("https://foodsprojectbyvishnu-1.onrender.com/api/loginuser", {
+    const response = await fetch("https://foods-project-3.onrender.com/api/loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
